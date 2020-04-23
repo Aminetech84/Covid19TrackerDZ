@@ -73,7 +73,7 @@ class Yesturday extends Component {
                 <div className="w-100">
 
                     <div className="row d-flex justify-content-around text-center bg-primary py-3">
-                        <span className="h4">(الامس) احصائيات كورونا في الجزائر<br /> COVID-19 STATISTICS IN ALGERIA (Yesturday) </span>
+                        <span className="h4">(الأمس) احصائيات كورونا في الجزائر<br /> COVID-19 STATISTICS IN ALGERIA (Yesturday) </span>
                     </div>
                     <div className="row d-flex bg-light justify-content-around align-self-center text-center py-5">
                         <div className="col-7 col-md-4 col-lg-2  text-info mx-auto my-5 px-auto justify-content-center">
@@ -104,7 +104,7 @@ class Yesturday extends Component {
 
                 <div>
                     <div className="row d-flex justify-content-around text-center bg-primary py-3">
-                        <span className="h4">(الامس) احصائيات كورونا في العالم<br /> COVID-19 STATISTICS IN THE WORLD (Yesturday) </span>
+                        <span className="h4">(الأمس) احصائيات كورونا في العالم<br /> COVID-19 STATISTICS IN THE WORLD (Yesturday) </span>
                     </div>
 
                     <div className=" row d-flex bg-light justify-content-around align-self-center text-center py-5">
