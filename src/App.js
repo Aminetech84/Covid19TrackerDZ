@@ -1,24 +1,40 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import './css/App.css';
+import './css/bootstrap-material-design.min.css';
+import Yesturday from './Components/Yesturday';
+import Today from './Components/Today';
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-fluid">
+      <Router>
+        <div className="d-flex justify-content-around">
+          <Link to="/" className="btn p-auto mt-1 bg-secondary btn-light justify-content-around" >Now</Link>
+          <Link to="/yesturday" className="btn p-auto mt-1 bg-secondary btn-light justify-content-around" >Yesturday</Link>
+        </div>
+
+        <Switch>
+          
+          <Route path="/yesturday">
+            <Yesturday country={'Algeria'} />
+          </Route>
+
+          <Route path="/">
+            <Today country={'Algeria'} />
+          </Route>
+
+        </Switch>
+      </Router>
+
     </div>
   );
 }
