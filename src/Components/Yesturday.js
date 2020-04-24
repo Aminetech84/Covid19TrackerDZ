@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from "axios";
 
 
-class Yesturday extends Component {
+class Yesterday extends Component {
 
     state = {
         con0: [],
@@ -153,4 +153,4 @@ class Yesturday extends Component {
     }
 }
 
-export default Yesturday;
+export default Yesterday;

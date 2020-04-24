@@ -7,7 +7,7 @@ import {
 } from "react-router-dom";
 import './css/App.css';
 import './css/bootstrap-material-design.min.css';
-import Yesturday from './Components/Yesturday';
+import Yesterday from './Components/Yesterday';
 import Today from './Components/Today';
 
 
@@ -25,7 +25,7 @@ function App() {
         <Switch>
           
           <Route path="/yesturday">
-            <Yesturday country={'Algeria'} />
+            <Yesterday country={'Algeria'} />
           </Route>
 
           <Route path="/">
